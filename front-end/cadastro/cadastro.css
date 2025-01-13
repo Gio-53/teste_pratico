@@ -1,0 +1,46 @@
+#form-container{
+    min-height: 300px;
+    display: inline-block;
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 9px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    align-items: center;
+}
+.input-field span{
+    padding: 12px;
+    /*align-self: self-start;*/
+}
+
+.input-field input{
+    outline: none;
+    border: 1px solid black;
+    width: 80%;
+    background-color: #fff;
+    height: 20px;
+    padding: 4px;
+}
+
+.buttons{
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.buttons input, .buttons button{
+    outline: none;
+    border: 1px solid black;
+    width: 30%;
+    background-color: #fff;
+    color: #000;
+    height: 24px;
+}
+
+.buttons button a{
+    color: #000;
+}
